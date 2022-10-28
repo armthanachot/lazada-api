@@ -1,0 +1,5 @@
+.env
+api list lazada
+./python/env
+*.zip
+node_modules
