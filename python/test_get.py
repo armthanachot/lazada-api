@@ -10,7 +10,8 @@ import json
 
 appKey = '113262'
 appSecret = 'uYdGFOw5QIoru2s8ikPh8Oy3g0AlUFup'
-accessToken = '50000701b05sRSrdY178aa52fGFUemwUGlGyn0IwsDgbDrpCLT3sspX2euifxMHn'
+accessToken = '50000700829dhvgr8MoSWouAC4IYjmUfrsgBgdqfm1f209005W1fmgvnVjxHWJKD'
+refreshToken= '50001700b29gihkApaRUAa3GXiKUgwTiWfeU8nsVe195f9e25KlMnyFxSFjLVVCf'
 client = lazop.LazopClient('https://api.lazada.co.th/rest', appKey, appSecret)
 
 # create a api request set GET mehotd

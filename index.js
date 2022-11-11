@@ -1,5 +1,5 @@
 const LazadaAPI = require("lazada-open-platform-sdk");
-const { APP_INFO, TEST_SHOP1_TOKEN } = require('./config')
+const { APP_INFO, TEST_SHOP1 } = require('./config')
 const { PRODUCT_PAYLOAD } = require('./constant/product')
 const Product = require("./node_modules/lazada-open-platform-sdk/lib/LazadaClient/product").default
 
@@ -8,7 +8,7 @@ const aLazadaAPIWithToken = new LazadaAPI(
     APP_INFO.APP_KEY,
     APP_INFO.APP_SECRET,
     "THAILAND",
-    TEST_SHOP1_TOKEN.access_token
+    TEST_SHOP1.access_token
 );
 
 // aLazadaAPIWithToken.getShipmentProviders().then((response) => {
@@ -16,7 +16,7 @@ const aLazadaAPIWithToken = new LazadaAPI(
 //   });
 
 // ดึงตรงๆจาก node_modules
-// Product.getProducts(APP_INFO.APP_KEY, APP_INFO.APP_SECRET, APP_INFO.GATEWAY, TEST_SHOP1_TOKEN.access_token, {filter:'all'}).then((response) => {
+// Product.getProducts(APP_INFO.APP_KEY, APP_INFO.APP_SECRET, APP_INFO.GATEWAY, TEST_SHOP1.access_token, {filter:'all'}).then((response) => {
 //     console.log(JSON.stringify(response, null, 2));
 // })
 
